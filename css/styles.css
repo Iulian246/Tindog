@@ -1,5 +1,6 @@
 #title{
-  background-color: #ff4c68;
+  background: linear-gradient(0deg, rgb(255, 96, 54), rgb(253, 38, 122)) no-repeat;
+  /* background-color: #ff4c68; */
   color: #fff;
 }
 h1{
@@ -28,7 +29,8 @@ p{
 body{
   font-family: "Montserrat"
 }
-/* Navigation Bar */
+
+/* Navigation Bar ------------------------------*/
 .navbar-brand{
   font-family: "Ubuntu";
   font-size: 2.5rem;
@@ -44,18 +46,25 @@ body{
   font-size: 1.2rem;
   font-family: "Montserrat"
 }
-/* Download Buttons */
+/* Download Buttons------------------------ */
 .download-button{
   margin: 5% 3% 5% 0;
 }
-/* Title Image */
+/* Title Image -----------------------------*/
 .title-image{
-  width: 20%;
+  width: 45%;
   transform: rotate(25deg);
   position: absolute;
   right: 20%;
 }
-/* Features section */
+.title-image-dog{
+  width: 17.5%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 32.5%;
+  bottom:9%;
+}
+/* Features section -----------------------------*/
 #features{
   padding: 7% 15%;
   background-color: #fff;
@@ -72,11 +81,12 @@ body{
   text-align: center;
   padding: 5%;
 }
-/* Testimonial section */
+/* Testimonial section -----------------------------*/
 
 #testimonials{
   text-align: center;
-  background-color: #ef8172;
+  background: linear-gradient(0deg, rgb(255, 96, 54), rgb(253, 38, 122)) no-repeat;
+  /* background-color: #ef8172; */
   color: #fff;
 }
 .testimonial-image{
@@ -88,7 +98,8 @@ body{
   padding: 7% 15%;
 }
 #press{
-  background-color: #ef8172;
+  background: linear-gradient(0deg, rgb(255, 96, 54), rgb(255, 96, 54)) no-repeat;
+  /* background-color: #ef8172; */
   text-align: center;
   padding-bottom: 3%;
 
@@ -97,7 +108,7 @@ body{
   width: 10%;
   margin: 20px 20px 15px;
 }
-/* Pricing section */
+/* Pricing section -----------------------------*/
 #pricing{
   padding: 100px;
   text-align: center;
@@ -116,10 +127,10 @@ body{
   width: 100%;
   }
 }
-/* CTA section */
+/* CTA section -----------------------------*/
 #cta{
   text-align: center;
-  background-color: #ff4c68;
+  background: linear-gradient(0deg, rgb(255, 96, 54), rgb(253, 38, 122)) no-repeat;
   padding: 7% 15%;
   color: #fff;
 }
@@ -127,7 +138,7 @@ body{
   font-size: 3.5rem;
   line-height: 1.5;
 }
-/* Footer section */
+/* Footer section -----------------------------*/
 #footer{
   text-align: center;
   padding: 7% 15%;
